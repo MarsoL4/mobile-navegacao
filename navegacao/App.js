@@ -39,8 +39,8 @@ export default function App() {
         tabBarOptions={{
           activeTintColor: 'tomato',
           inactiveTintColor: 'gray',
-        }}
-      >
+        }}initialRouteName='Home'>
+          
         <Tab.Screen name="Home" component={HomeScreen} />
         <Tab.Screen name="Profile" component={DetailsStack} />
       </Tab.Navigator>
